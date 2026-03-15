@@ -1,4 +1,4 @@
-**Distributed Network Propagation Simulator**
+# Distributed Network Propagation Simulator
 This project was developed as part of COP5615 at the University of Florida, taught by Prof. Alin Dobra. Implemented in Gleam and executed on the Erlang VM, the simulator models distributed nodes across various network topologies and evaluates message propagation using Gossip and Push-Sum algorithms.
 A distributed systems simulator that models how information propagates across a network of nodes using Gossip and Push-Sum algorithms. The simulator evaluates how different network topologies affect convergence time and message dissemination. This project uses the actor model for highly concurrent distributed simulations.
 
