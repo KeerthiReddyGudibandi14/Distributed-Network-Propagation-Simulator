@@ -3,9 +3,11 @@ This project was developed as part of COP5615 at the University of Florida, taug
 A distributed systems simulator that models how information propagates across a network of nodes using Gossip and Push-Sum algorithms. The simulator evaluates how different network topologies affect convergence time and message dissemination. This project uses the actor model for highly concurrent distributed simulations.
 
 **Overview**
+
 In distributed systems, information must propagate efficiently across many nodes. Algorithms like Gossip and Push-Sum are widely used for decentralized communication, fault tolerance, and distributed aggregation. This simulator creates a configurable network of nodes and analyzes how quickly information spreads depending on the network topology and algorithm used.
 
 **Algorithms**
+
 *Gossip Algorithm*
 The gossip protocol spreads information through a network by randomly selecting neighbors and transmitting a message repeatedly until all nodes receive the rumor.
 
@@ -15,6 +17,7 @@ Use cases include:
 - Blockchain networks
 
 *Push-Sum Algorithm*
+
 The push-sum protocol is used to compute the global average of values distributed across nodes in a decentralized system.
 
 Each node maintains:
