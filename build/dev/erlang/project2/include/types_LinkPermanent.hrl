@@ -1,1 +1,0 @@
--record(link_permanent, {rate :: float()}).

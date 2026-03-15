@@ -1,1 +1,0 @@
--record(wait_for_all, {reply :: gleam@erlang@process:subject(nil)}).

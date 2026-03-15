@@ -1,1 +1,0 @@
--record(done, {from :: integer()}).

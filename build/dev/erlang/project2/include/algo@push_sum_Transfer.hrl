@@ -1,1 +1,0 @@
--record(transfer, {s :: float(), w :: float()}).
