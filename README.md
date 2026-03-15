@@ -7,7 +7,7 @@ A distributed systems simulator that models how information propagates across a 
 
 In distributed systems, information must propagate efficiently across many nodes. Algorithms like Gossip and Push-Sum are widely used for decentralized communication, fault tolerance, and distributed aggregation. This simulator creates a configurable network of nodes and analyzes how quickly information spreads depending on the network topology and algorithm used.
 
-**Algorithms**
+# Algorithms
 
 **Gossip Algorithm**
 
@@ -28,7 +28,7 @@ Each node maintains:
 
 Nodes exchange partial values with neighbors until the ratio s / w converges to the global average.
 
-**Network Topologies**
+# Network Topologies
 
 The simulator supports several network structures:
 - Full Network : Every node connects to every other node.
