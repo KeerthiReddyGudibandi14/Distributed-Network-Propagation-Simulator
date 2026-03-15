@@ -1,0 +1,1 @@
+-record(node_death, {rate :: float()}).

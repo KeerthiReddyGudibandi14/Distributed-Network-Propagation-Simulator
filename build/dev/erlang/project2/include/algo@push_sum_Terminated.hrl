@@ -1,0 +1,1 @@
+-record(terminated, {node_id :: integer()}).

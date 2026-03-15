@@ -1,0 +1,1 @@
+-record(link_temporary, {rate :: float()}).
